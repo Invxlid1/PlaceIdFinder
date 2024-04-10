@@ -1,5 +1,5 @@
 local function PrintCommands()
-    print("Commands for Aimbot: /e Linethickness (number here), /e Filled (true/false), /e FOVvisible (true/false), /e Whitelist (PlayerName1, PlayerName2, ...), /e Color (name of color/rainbow), /e AimKey (key)")
+    print("Commands for Aimbot: /e Linethickness (number here), /e Filled (true/false), /e FOVvisible (true/false), /e Whitelist (PlayerName1, PlayerName2, ...), /e Color (name of color/rainbow), /e AimKey (key), /e Triggerbot")
 end
 
 getgenv().Prediction = 0.1
@@ -182,6 +182,8 @@ local function RunCommand(cmd, args)
     elseif cmd == "aimkey" then
         getgenv().AimKey = args
         print("Aim key set to: " .. args)
+    elseif cmd == "triggerbot" then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ttwizz/Roblox/master/UniversalTriggerBot.lua", true))()
     else
         print("Unknown command. Type '/e Help' for a list of commands.")
     end
@@ -202,3 +204,4 @@ end
 Players.LocalPlayer.Chatted:Connect(ProcessCommand)
 
 loadstring(game:HttpGet("https://pastebin.com/raw/MwmrpsPK"))()
+
