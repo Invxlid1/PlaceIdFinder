@@ -75,7 +75,7 @@ game.StarterGui:SetCore("ChatMakeSystemMessage", {
     Color = Color3.fromRGB(255, 0, 0)
 })
 
-game.StarterGui:SetCore("SendNotification", {Title = "AimX Loaded", Text = "Description: dre is kaka", Duration = 5}) -- Notification for the script being loaded
+game.StarterGui:SetCore("SendNotification", {Title = "AimX Loaded", Text = "wys gangg", Duration = 5}) -- Notification for the script being loaded
 
 local function ItsOn()
     game.StarterGui:SetCore("SendNotification", {Title = "Silent Aim ON", Text = "TOGGLED", Duration = 5})
