@@ -22,28 +22,18 @@ local ColorNames = {
     RAINBOW = "rainbow"
 }
 
---[[
-        Do Not Edit Anything Beyond This Point.
-]]
-
 local SilentAim = true
 local LocalPlayer = game:GetService("Players").LocalPlayer
 local Players = game:GetService("Players")
 local Mouse = LocalPlayer:GetMouse()
 local Camera = game:GetService("Workspace").CurrentCamera
-local connections = getconnections(game:GetService("LogService").MessageOut)
-for _, v in ipairs(connections) do
-    v:Disable()
-end
-
-getrawmetatable = getrawmetatable
-setreadonly = setreadonly
-getconnections = getconnections
-hookmetamethod = hookmetamethod
-getgenv = getgenv
-Drawing = Drawing
-
 local FOV_CIRCLE = Drawing.new("Circle")
+
+local Options = {
+    Torso = "HumanoidRootPart",
+    Head = "Head"
+}
+
 FOV_CIRCLE.Visible = getgenv().FOV_VISIBLE
 FOV_CIRCLE.Filled = false
 FOV_CIRCLE.Thickness = 0.00001
@@ -52,34 +42,26 @@ FOV_CIRCLE.Color = Color3.new(0.000000, 0.521569, 0.784314)
 FOV_CIRCLE.Radius = getgenv().FOV
 FOV_CIRCLE.Position = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2)
 
-local Options = {
-    Torso = "HumanoidRootPart",
-    Head = "Head"
-}
-
 local function MoveFovCircle()
-    pcall(function()
-        local DoIt = true
-        spawn(function()
-            while DoIt do
-                task.wait()
-                FOV_CIRCLE.Position = Vector2.new(Mouse.X, (Mouse.Y + 36))
-            end
-        end)
+    spawn(function()
+        while true do
+            FOV_CIRCLE.Position = Vector2.new(Mouse.X, (Mouse.Y + 36))
+            task.wait()
+        end
     end)
 end
-coroutine.wrap(MoveFovCircle)()
 
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
     Text = "Commands for Aimbot: /e Linethickness (number here), /e Filled (true/false), /e FOV (number), /e FOVvisible (true/false), /e Whitelist (PlayerName1, PlayerName2, ...), /e Color (name of color/rainbow), /e AimKey (key), /e TriggerBot",
     Color = Color3.fromRGB(255, 0, 0)
 })
 
-game.StarterGui:SetCore("SendNotification", {Title = "AimX Loaded", Text = "wys gangg", Duration = 5}) -- Notification for the script being loaded
+game.StarterGui:SetCore("SendNotification", {Title = "AimX Loaded", Text = "wys gangg", Duration = 5})
 
 local function ItsOn()
     game.StarterGui:SetCore("SendNotification", {Title = "Silent Aim ON", Text = "TOGGLED", Duration = 5})
 end
+
 local function ItsOff()
     game.StarterGui:SetCore("SendNotification", {Title = "Silent Aim OFF", Text = "UN-TOGGLED", Duration = 5})
 end
@@ -88,23 +70,25 @@ local function SetCircleColor(r, g, b)
     FOV_CIRCLE.Color = Color3.fromRGB(r, g, b)
 end
 
+local function ToggleSilentAim()
+    SilentAim = not SilentAim
+    if SilentAim then
+        FOV_CIRCLE.Color = Color3.new(0.047059, 0.172549, 0.517647)
+        ItsOn()
+    else
+        FOV_CIRCLE.Color = Color3.new(1, 0, 0)
+        ItsOff()
+    end
+end
+
 Mouse.KeyDown:Connect(function(KeyPressed)
     if KeyPressed == (getgenv().AimKey:lower()) then
-        if SilentAim == false then
-            FOV_CIRCLE.Color = Color3.new(0.047059, 0.172549, 0.517647)
-            SilentAim = true
-            ItsOn()
-        elseif SilentAim == true then
-            FOV_CIRCLE.Color = Color3.new(1, 0, 0)
-            SilentAim = false
-            ItsOff()
-        end
+        ToggleSilentAim()
     end
 end)
 
 Mouse.KeyDown:Connect(function(Rejoin)
     if Rejoin == "=" then
-        local LocalPlayer = game:GetService("Players").LocalPlayer
         game:GetService("TeleportService"):Teleport(game.PlaceId, LocalPlayer)
     end
 end)
@@ -186,6 +170,9 @@ local function RunCommand(cmd, args)
     elseif cmd == "aimkey" then
         getgenv().AimKey = args
         print("Aim key set to: " .. args)
+    elseif cmd == "triggerbot" then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ttwizz/Roblox/master/UniversalTriggerBot.lua", true))()
+        print("TriggerBot activated.")
     else
         print("Unknown command. Type '/e Help' for a list of commands.")
     end
@@ -205,9 +192,7 @@ end
 
 Players.LocalPlayer.Chatted:Connect(ProcessCommand)
 
-loadstring(game:HttpGet("https://pastebin.com/raw/MwmrpsPK"))()
-
-Players.LocalPlayer.Chatted:Connect(ProcessCommand)
+MoveFovCircle()
 
 loadstring(game:HttpGet("https://pastebin.com/raw/MwmrpsPK"))()
 
