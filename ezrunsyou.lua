@@ -11,7 +11,6 @@ local UICorner_2 = Instance.new("UICorner")
 local Frame_2 = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 local Container = Instance.new("Frame")
-local NameLabel = Instance.new("TextLabel")
 local Frame_3 = Instance.new("Frame")
 local ProfilePicture = Instance.new("ImageLabel")
 local UICorner_3 = Instance.new("UICorner")
@@ -22,76 +21,89 @@ local ServerPlayersLabel = Instance.new("TextLabel")
 local ServerUptimeLabel = Instance.new("TextLabel")
 local TextLabel_2 = Instance.new("TextLabel")
 local TextLabel_3 = Instance.new("TextLabel")
-local TextLabel_4 = Instance.new("TextLabel")
 local Frame_4 = Instance.new("Frame")
 local UICorner_5 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
 local Frame_5 = Instance.new("Frame")
 local UICorner_6 = Instance.new("UICorner")
-local Frame_6 = Instance.new("Frame")
-local UIListLayout_2 = Instance.new("UIListLayout")
-local quickbuttons = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
+local tpknocked = Instance.new("TextBox")
 local UICorner_7 = Instance.new("UICorner")
-local Frame_7 = Instance.new("Frame")
-local UICorner_8 = Instance.new("UICorner")
-local Frame_8 = Instance.new("Frame")
-local SPEED = Instance.new("TextBox")
-local UICorner_9 = Instance.new("UICorner")
-local xray = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
 local UIGradient = Instance.new("UIGradient")
+local Fling = Instance.new("TextBox")
+local UICorner_8 = Instance.new("UICorner")
 local UIGradient_2 = Instance.new("UIGradient")
-local triggerbot = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
+local highlightplayer = Instance.new("TextBox")
+local UICorner_9 = Instance.new("UICorner")
 local UIGradient_3 = Instance.new("UIGradient")
-local serverhop = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
+local summonfriends = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
 local UIGradient_4 = Instance.new("UIGradient")
-local ESP = Instance.new("TextButton")
+local quickbuttons = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
+local Frame_6 = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local Frame_7 = Instance.new("Frame")
+local SPEED = Instance.new("TextBox")
 local UICorner_13 = Instance.new("UICorner")
-local UIGradient_5 = Instance.new("UIGradient")
-local invis = Instance.new("TextButton")
+local xray = Instance.new("TextButton")
 local UICorner_14 = Instance.new("UICorner")
+local UIGradient_5 = Instance.new("UIGradient")
 local UIGradient_6 = Instance.new("UIGradient")
-local lock = Instance.new("TextButton")
+local triggerbot = Instance.new("TextButton")
 local UICorner_15 = Instance.new("UICorner")
 local UIGradient_7 = Instance.new("UIGradient")
-local infiniteyield = Instance.new("TextButton")
+local serverhop = Instance.new("TextButton")
 local UICorner_16 = Instance.new("UICorner")
 local UIGradient_8 = Instance.new("UIGradient")
-local flingall = Instance.new("TextButton")
+local ESP = Instance.new("TextButton")
 local UICorner_17 = Instance.new("UICorner")
 local UIGradient_9 = Instance.new("UIGradient")
-local splitsectp = Instance.new("TextButton")
+local invis = Instance.new("TextButton")
 local UICorner_18 = Instance.new("UICorner")
 local UIGradient_10 = Instance.new("UIGradient")
-local UIListLayout_3 = Instance.new("UIListLayout")
-local jumppower = Instance.new("TextBox")
+local lock = Instance.new("TextButton")
 local UICorner_19 = Instance.new("UICorner")
 local UIGradient_11 = Instance.new("UIGradient")
-local Teleport = Instance.new("TextBox")
+local infiniteyield = Instance.new("TextButton")
 local UICorner_20 = Instance.new("UICorner")
 local UIGradient_12 = Instance.new("UIGradient")
-local TextLabel_5 = Instance.new("TextLabel")
-local TextLabel_6 = Instance.new("TextLabel")
-local Frame_9 = Instance.new("Frame")
+local flingall = Instance.new("TextButton")
 local UICorner_21 = Instance.new("UICorner")
-local TextLabel_7 = Instance.new("TextLabel")
-local Frame_10 = Instance.new("Frame")
-local UICorner_22 = Instance.new("UICorner")
-local TextLabel_8 = Instance.new("TextLabel")
-local tpknocked = Instance.new("TextBox")
-local UICorner_23 = Instance.new("UICorner")
 local UIGradient_13 = Instance.new("UIGradient")
-local Fling = Instance.new("TextBox")
-local UICorner_24 = Instance.new("UICorner")
+local splitsectp = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
 local UIGradient_14 = Instance.new("UIGradient")
-local highlightplayer = Instance.new("TextBox")
-local UICorner_25 = Instance.new("UICorner")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local jumppower = Instance.new("TextBox")
+local UICorner_23 = Instance.new("UICorner")
 local UIGradient_15 = Instance.new("UIGradient")
+local Teleport = Instance.new("TextBox")
+local UICorner_24 = Instance.new("UICorner")
+local UIGradient_16 = Instance.new("UIGradient")
+local TextLabel_6 = Instance.new("TextLabel")
+local NameLabel = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local Container2 = Instance.new("Frame")
+local Container3 = Instance.new("Frame")
+local Container4 = Instance.new("Frame")
+local Container5 = Instance.new("Frame")
 local ImageButton = Instance.new("ImageButton")
 local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 local ImageButton_2 = Instance.new("ImageButton")
 local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local sidebar = Instance.new("Frame")
+local UICorner_25 = Instance.new("UICorner")
+local Frame_8 = Instance.new("Frame")
+local Frame_9 = Instance.new("Frame")
+local UIListLayout_3 = Instance.new("UIListLayout")
+local UICorner_26 = Instance.new("UICorner")
+local xSetting = Instance.new("ImageButton")
+local Spectate = Instance.new("ImageButton")
+local Hammer = Instance.new("ImageButton")
+local Emotes = Instance.new("ImageButton")
+local AHome = Instance.new("ImageButton")
 
 --Properties:
 
@@ -143,19 +155,6 @@ Container.BackgroundTransparency = 1.000
 Container.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Container.Position = UDim2.new(0.0117449667, 0, 0.14161849, 0)
 Container.Size = UDim2.new(0, 582, 0, 283)
-
-NameLabel.Name = "NameLabel"
-NameLabel.Parent = Container
-NameLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-NameLabel.BackgroundTransparency = 1.000
-NameLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
-NameLabel.Position = UDim2.new(0.147020578, 0, -0.00442461763, 1)
-NameLabel.Size = UDim2.new(0, 160, 0, 25)
-NameLabel.Font = Enum.Font.GothamMedium
-NameLabel.Text = "LOADIN"
-NameLabel.TextColor3 = Color3.fromRGB(200, 200, 200)
-NameLabel.TextSize = 15.000
-NameLabel.TextXAlignment = Enum.TextXAlignment.Left
 
 Frame_3.Parent = Container
 Frame_3.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
@@ -248,48 +247,129 @@ TextLabel_3.TextSize = 15.000
 TextLabel_3.TextWrapped = true
 TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
 
-TextLabel_4.Parent = Container
+Frame_4.Parent = Container
+Frame_4.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Frame_4.BackgroundTransparency = 0.150
+Frame_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_4.Position = UDim2.new(0.495079011, -2, -0.000891156436, 0)
+Frame_4.Size = UDim2.new(0, 227, 0, 155)
+
+UICorner_5.CornerRadius = UDim.new(0, 4)
+UICorner_5.Parent = Frame_4
+
+TextLabel_4.Parent = Frame_4
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_4.BackgroundTransparency = 1.000
 TextLabel_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_4.Position = UDim2.new(0.147020578, 0, 0.0697803274, 1)
-TextLabel_4.Size = UDim2.new(0, 119, 0, 25)
-TextLabel_4.Font = Enum.Font.Gotham
-TextLabel_4.Text = "Welcome to the "
+TextLabel_4.Position = UDim2.new(0.0140000004, 3, 0.0439999998, 3)
+TextLabel_4.Size = UDim2.new(0, 160, 0, 13)
+TextLabel_4.Font = Enum.Font.GothamMedium
+TextLabel_4.Text = "Stuff"
 TextLabel_4.TextColor3 = Color3.fromRGB(200, 200, 200)
 TextLabel_4.TextScaled = true
 TextLabel_4.TextSize = 15.000
 TextLabel_4.TextWrapped = true
 TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
 
-Frame_4.Parent = Container
-Frame_4.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-Frame_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Frame_4.Position = UDim2.new(0.914322972, -2, 0.00399995968, 0)
-Frame_4.Size = UDim2.new(0, 50, 0, 289)
-
-UICorner_5.CornerRadius = UDim.new(0, 4)
-UICorner_5.Parent = Frame_4
-
-Frame_5.Parent = Frame_4
+Frame_5.Parent = Container
 Frame_5.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 Frame_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Frame_5.Position = UDim2.new(0, 1, 0, 1)
-Frame_5.Size = UDim2.new(0, 48, 0, 287)
+Frame_5.Position = UDim2.new(0.496797234, -2, 0.00264241244, 0)
+Frame_5.Size = UDim2.new(0, 225, 0, 153)
 
 UICorner_6.CornerRadius = UDim.new(0, 4)
 UICorner_6.Parent = Frame_5
 
-Frame_6.Parent = Frame_5
-Frame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_6.BackgroundTransparency = 1.000
-Frame_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Frame_6.Position = UDim2.new(0.229166672, 0, 0.0418118462, 0)
-Frame_6.Size = UDim2.new(0, 25, 0, 267)
+TextLabel_5.Parent = Frame_5
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_5.Position = UDim2.new(0.00955566391, 3, 0.0505359136, 3)
+TextLabel_5.Size = UDim2.new(0, 160, 0, 13)
+TextLabel_5.Font = Enum.Font.GothamMedium
+TextLabel_5.Text = "More Buttons"
+TextLabel_5.TextColor3 = Color3.fromRGB(200, 200, 200)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 15.000
+TextLabel_5.TextWrapped = true
+TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
 
-UIListLayout_2.Parent = Frame_6
-UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
-UIListLayout_2.Padding = UDim.new(0, 25)
+tpknocked.Name = "tpknocked"
+tpknocked.Parent = Frame_5
+tpknocked.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+tpknocked.BorderColor3 = Color3.fromRGB(27, 42, 53)
+tpknocked.Position = UDim2.new(0.065915525, 0, 0.410234243, 0)
+tpknocked.Size = UDim2.new(0, 195, 0, 20)
+tpknocked.Font = Enum.Font.Gotham
+tpknocked.PlaceholderText = "TP ON KNOCKED (DH GAMES)"
+tpknocked.Text = ""
+tpknocked.TextColor3 = Color3.fromRGB(0, 0, 0)
+tpknocked.TextSize = 13.000
+
+UICorner_7.CornerRadius = UDim.new(0, 3)
+UICorner_7.Parent = tpknocked
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
+UIGradient.Rotation = 90
+UIGradient.Parent = tpknocked
+
+Fling.Name = "Fling"
+Fling.Parent = Frame_5
+Fling.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Fling.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Fling.Position = UDim2.new(0.065915525, 0, 0.191796392, 0)
+Fling.Size = UDim2.new(0, 195, 0, 20)
+Fling.Font = Enum.Font.Gotham
+Fling.PlaceholderText = "FLING USERNAME HERE"
+Fling.Text = ""
+Fling.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fling.TextSize = 13.000
+
+UICorner_8.CornerRadius = UDim.new(0, 3)
+UICorner_8.Parent = Fling
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
+UIGradient_2.Rotation = 90
+UIGradient_2.Parent = Fling
+
+highlightplayer.Name = "highlightplayer"
+highlightplayer.Parent = Frame_5
+highlightplayer.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+highlightplayer.BorderColor3 = Color3.fromRGB(27, 42, 53)
+highlightplayer.Position = UDim2.new(0.065915525, 0, 0.610960722, 0)
+highlightplayer.Size = UDim2.new(0, 195, 0, 20)
+highlightplayer.Font = Enum.Font.Gotham
+highlightplayer.PlaceholderText = "HIGHLIGHT PLAYER"
+highlightplayer.Text = ""
+highlightplayer.TextColor3 = Color3.fromRGB(0, 0, 0)
+highlightplayer.TextSize = 13.000
+
+UICorner_9.CornerRadius = UDim.new(0, 3)
+UICorner_9.Parent = highlightplayer
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
+UIGradient_3.Rotation = 90
+UIGradient_3.Parent = highlightplayer
+
+summonfriends.Name = "summonfriends"
+summonfriends.Parent = Frame_5
+summonfriends.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+summonfriends.BorderColor3 = Color3.fromRGB(27, 42, 53)
+summonfriends.Position = UDim2.new(0.0525824651, 3, 0.809170008, 3)
+summonfriends.Size = UDim2.new(0, 194, 0, 23)
+summonfriends.AutoButtonColor = false
+summonfriends.Font = Enum.Font.Gotham
+summonfriends.Text = "!summon for friends"
+summonfriends.TextColor3 = Color3.fromRGB(209, 209, 209)
+summonfriends.TextSize = 14.000
+summonfriends.TextWrapped = true
+
+UICorner_10.CornerRadius = UDim.new(0, 3)
+UICorner_10.Parent = summonfriends
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
+UIGradient_4.Rotation = 90
+UIGradient_4.Parent = summonfriends
 
 quickbuttons.Name = "quick buttons"
 quickbuttons.Parent = Container
@@ -298,27 +378,27 @@ quickbuttons.BorderColor3 = Color3.fromRGB(27, 42, 53)
 quickbuttons.Position = UDim2.new(0.0201855432, -2, 0.576438129, 0)
 quickbuttons.Size = UDim2.new(0, 512, 0, 126)
 
-UICorner_7.CornerRadius = UDim.new(0, 4)
-UICorner_7.Parent = quickbuttons
+UICorner_11.CornerRadius = UDim.new(0, 4)
+UICorner_11.Parent = quickbuttons
 
-Frame_7.Parent = quickbuttons
-Frame_7.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Frame_6.Parent = quickbuttons
+Frame_6.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Frame_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_6.Position = UDim2.new(0, 1, 0, 1)
+Frame_6.Size = UDim2.new(0, 510, 0, 124)
+
+UICorner_12.CornerRadius = UDim.new(0, 4)
+UICorner_12.Parent = Frame_6
+
+Frame_7.Parent = Frame_6
+Frame_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_7.BackgroundTransparency = 1.000
 Frame_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Frame_7.Position = UDim2.new(0, 1, 0, 1)
-Frame_7.Size = UDim2.new(0, 510, 0, 124)
-
-UICorner_8.CornerRadius = UDim.new(0, 4)
-UICorner_8.Parent = Frame_7
-
-Frame_8.Parent = Frame_7
-Frame_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_8.BackgroundTransparency = 1.000
-Frame_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Frame_8.Position = UDim2.new(0.0137254903, 0, 0.225806206, 0)
-Frame_8.Size = UDim2.new(0, 497, 0, 87)
+Frame_7.Position = UDim2.new(0.0137254903, 0, 0.225806206, 0)
+Frame_7.Size = UDim2.new(0, 497, 0, 87)
 
 SPEED.Name = "SPEED"
-SPEED.Parent = Frame_8
+SPEED.Parent = Frame_7
 SPEED.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 SPEED.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SPEED.Position = UDim2.new(-0.0140845068, 0, 1.12643683, 0)
@@ -329,8 +409,8 @@ SPEED.Text = ""
 SPEED.TextColor3 = Color3.fromRGB(0, 0, 0)
 SPEED.TextSize = 13.000
 
-UICorner_9.CornerRadius = UDim.new(0, 3)
-UICorner_9.Parent = SPEED
+UICorner_13.CornerRadius = UDim.new(0, 3)
+UICorner_13.Parent = SPEED
 
 xray.Name = "xray"
 xray.Parent = SPEED
@@ -344,16 +424,16 @@ xray.Text = "XRAY"
 xray.TextColor3 = Color3.fromRGB(209, 209, 209)
 xray.TextSize = 14.000
 
-UICorner_10.CornerRadius = UDim.new(0, 3)
-UICorner_10.Parent = xray
+UICorner_14.CornerRadius = UDim.new(0, 3)
+UICorner_14.Parent = xray
 
-UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
-UIGradient.Rotation = 90
-UIGradient.Parent = xray
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
+UIGradient_5.Rotation = 90
+UIGradient_5.Parent = xray
 
-UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
-UIGradient_2.Rotation = 90
-UIGradient_2.Parent = SPEED
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
+UIGradient_6.Rotation = 90
+UIGradient_6.Parent = SPEED
 
 triggerbot.Name = "triggerbot"
 triggerbot.Parent = SPEED
@@ -367,12 +447,12 @@ triggerbot.Text = "TRIGGERBOT"
 triggerbot.TextColor3 = Color3.fromRGB(209, 209, 209)
 triggerbot.TextSize = 14.000
 
-UICorner_11.CornerRadius = UDim.new(0, 3)
-UICorner_11.Parent = triggerbot
+UICorner_15.CornerRadius = UDim.new(0, 3)
+UICorner_15.Parent = triggerbot
 
-UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
-UIGradient_3.Rotation = 90
-UIGradient_3.Parent = triggerbot
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
+UIGradient_7.Rotation = 90
+UIGradient_7.Parent = triggerbot
 
 serverhop.Name = "serverhop"
 serverhop.Parent = SPEED
@@ -386,12 +466,12 @@ serverhop.Text = "SERVERHOP"
 serverhop.TextColor3 = Color3.fromRGB(209, 209, 209)
 serverhop.TextSize = 14.000
 
-UICorner_12.CornerRadius = UDim.new(0, 3)
-UICorner_12.Parent = serverhop
+UICorner_16.CornerRadius = UDim.new(0, 3)
+UICorner_16.Parent = serverhop
 
-UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
-UIGradient_4.Rotation = 90
-UIGradient_4.Parent = serverhop
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
+UIGradient_8.Rotation = 90
+UIGradient_8.Parent = serverhop
 
 ESP.Name = "ESP"
 ESP.Parent = SPEED
@@ -405,12 +485,12 @@ ESP.Text = "ESP"
 ESP.TextColor3 = Color3.fromRGB(209, 209, 209)
 ESP.TextSize = 14.000
 
-UICorner_13.CornerRadius = UDim.new(0, 3)
-UICorner_13.Parent = ESP
+UICorner_17.CornerRadius = UDim.new(0, 3)
+UICorner_17.Parent = ESP
 
-UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
-UIGradient_5.Rotation = 90
-UIGradient_5.Parent = ESP
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
+UIGradient_9.Rotation = 90
+UIGradient_9.Parent = ESP
 
 invis.Name = "invis"
 invis.Parent = SPEED
@@ -424,12 +504,12 @@ invis.Text = "INVIS KINDA"
 invis.TextColor3 = Color3.fromRGB(209, 209, 209)
 invis.TextSize = 14.000
 
-UICorner_14.CornerRadius = UDim.new(0, 3)
-UICorner_14.Parent = invis
+UICorner_18.CornerRadius = UDim.new(0, 3)
+UICorner_18.Parent = invis
 
-UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
-UIGradient_6.Rotation = 90
-UIGradient_6.Parent = invis
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
+UIGradient_10.Rotation = 90
+UIGradient_10.Parent = invis
 
 lock.Name = "lock"
 lock.Parent = SPEED
@@ -443,12 +523,12 @@ lock.Text = "LOCK"
 lock.TextColor3 = Color3.fromRGB(209, 209, 209)
 lock.TextSize = 14.000
 
-UICorner_15.CornerRadius = UDim.new(0, 3)
-UICorner_15.Parent = lock
+UICorner_19.CornerRadius = UDim.new(0, 3)
+UICorner_19.Parent = lock
 
-UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
-UIGradient_7.Rotation = 90
-UIGradient_7.Parent = lock
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
+UIGradient_11.Rotation = 90
+UIGradient_11.Parent = lock
 
 infiniteyield.Name = "infinite yield"
 infiniteyield.Parent = SPEED
@@ -462,12 +542,12 @@ infiniteyield.Text = "INF YIELD"
 infiniteyield.TextColor3 = Color3.fromRGB(209, 209, 209)
 infiniteyield.TextSize = 14.000
 
-UICorner_16.CornerRadius = UDim.new(0, 3)
-UICorner_16.Parent = infiniteyield
+UICorner_20.CornerRadius = UDim.new(0, 3)
+UICorner_20.Parent = infiniteyield
 
-UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
-UIGradient_8.Rotation = 90
-UIGradient_8.Parent = infiniteyield
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
+UIGradient_12.Rotation = 90
+UIGradient_12.Parent = infiniteyield
 
 flingall.Name = "fling all"
 flingall.Parent = SPEED
@@ -481,12 +561,12 @@ flingall.Text = "FLING ALL"
 flingall.TextColor3 = Color3.fromRGB(209, 209, 209)
 flingall.TextSize = 14.000
 
-UICorner_17.CornerRadius = UDim.new(0, 3)
-UICorner_17.Parent = flingall
+UICorner_21.CornerRadius = UDim.new(0, 3)
+UICorner_21.Parent = flingall
 
-UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
-UIGradient_9.Rotation = 90
-UIGradient_9.Parent = flingall
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
+UIGradient_13.Rotation = 90
+UIGradient_13.Parent = flingall
 
 splitsectp.Name = "split sec tp"
 splitsectp.Parent = SPEED
@@ -500,19 +580,19 @@ splitsectp.Text = "SPLITSECTP"
 splitsectp.TextColor3 = Color3.fromRGB(209, 209, 209)
 splitsectp.TextSize = 14.000
 
-UICorner_18.CornerRadius = UDim.new(0, 3)
-UICorner_18.Parent = splitsectp
+UICorner_22.CornerRadius = UDim.new(0, 3)
+UICorner_22.Parent = splitsectp
 
-UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
-UIGradient_10.Rotation = 90
-UIGradient_10.Parent = splitsectp
+UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
+UIGradient_14.Rotation = 90
+UIGradient_14.Parent = splitsectp
 
-UIListLayout_3.Parent = Frame_8
-UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_3.Padding = UDim.new(0, 10)
+UIListLayout_2.Parent = Frame_7
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.Padding = UDim.new(0, 10)
 
 jumppower.Name = "jump power"
-jumppower.Parent = Frame_8
+jumppower.Parent = Frame_7
 jumppower.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 jumppower.BorderColor3 = Color3.fromRGB(27, 42, 53)
 jumppower.Position = UDim2.new(-0.0140845068, 0, 1.12643683, 0)
@@ -523,15 +603,15 @@ jumppower.Text = ""
 jumppower.TextColor3 = Color3.fromRGB(0, 0, 0)
 jumppower.TextSize = 13.000
 
-UICorner_19.CornerRadius = UDim.new(0, 3)
-UICorner_19.Parent = jumppower
+UICorner_23.CornerRadius = UDim.new(0, 3)
+UICorner_23.Parent = jumppower
 
-UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
-UIGradient_11.Rotation = 90
-UIGradient_11.Parent = jumppower
+UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
+UIGradient_15.Rotation = 90
+UIGradient_15.Parent = jumppower
 
 Teleport.Name = "Teleport"
-Teleport.Parent = Frame_8
+Teleport.Parent = Frame_7
 Teleport.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 Teleport.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Teleport.Position = UDim2.new(-0.0140845068, 0, 1.12643683, 0)
@@ -542,144 +622,99 @@ Teleport.Text = ""
 Teleport.TextColor3 = Color3.fromRGB(0, 0, 0)
 Teleport.TextSize = 13.000
 
-UICorner_20.CornerRadius = UDim.new(0, 3)
-UICorner_20.Parent = Teleport
+UICorner_24.CornerRadius = UDim.new(0, 3)
+UICorner_24.Parent = Teleport
 
-UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
-UIGradient_12.Rotation = 90
-UIGradient_12.Parent = Teleport
+UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
+UIGradient_16.Rotation = 90
+UIGradient_16.Parent = Teleport
 
-TextLabel_5.Parent = Frame_7
-TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.BackgroundTransparency = 1.000
-TextLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_5.Position = UDim2.new(0.0140000004, 3, 0.0439999998, 3)
-TextLabel_5.Size = UDim2.new(0, 160, 0, 13)
-TextLabel_5.Font = Enum.Font.GothamMedium
-TextLabel_5.Text = "Quick Buttons"
-TextLabel_5.TextColor3 = Color3.fromRGB(200, 200, 200)
-TextLabel_5.TextScaled = true
-TextLabel_5.TextSize = 15.000
-TextLabel_5.TextWrapped = true
-TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
-
-TextLabel_6.Parent = Container
+TextLabel_6.Parent = Frame_6
 TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_6.BackgroundTransparency = 1.000
 TextLabel_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_6.Position = UDim2.new(0.351487935, 0, 0.0697803274, 1)
-TextLabel_6.Size = UDim2.new(0, 67, 0, 25)
-TextLabel_6.Font = Enum.Font.Gotham
-TextLabel_6.Text = " invalidX."
+TextLabel_6.Position = UDim2.new(0.0140000004, 3, 0.0439999998, 3)
+TextLabel_6.Size = UDim2.new(0, 160, 0, 13)
+TextLabel_6.Font = Enum.Font.GothamMedium
+TextLabel_6.Text = "Quick Buttons"
 TextLabel_6.TextColor3 = Color3.fromRGB(200, 200, 200)
 TextLabel_6.TextScaled = true
 TextLabel_6.TextSize = 15.000
 TextLabel_6.TextWrapped = true
 TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
 
-Frame_9.Parent = Container
-Frame_9.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-Frame_9.BackgroundTransparency = 0.150
-Frame_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Frame_9.Position = UDim2.new(0.495079011, -2, -0.000891156436, 0)
-Frame_9.Size = UDim2.new(0, 227, 0, 155)
+NameLabel.Name = "NameLabel"
+NameLabel.Parent = Container
+NameLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NameLabel.BackgroundTransparency = 1.000
+NameLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+NameLabel.Position = UDim2.new(0.147020578, 0, -0.00442461763, 1)
+NameLabel.Size = UDim2.new(0, 160, 0, 25)
+NameLabel.Font = Enum.Font.GothamMedium
+NameLabel.Text = "LOADIN"
+NameLabel.TextColor3 = Color3.fromRGB(200, 200, 200)
+NameLabel.TextSize = 15.000
+NameLabel.TextXAlignment = Enum.TextXAlignment.Left
 
-UICorner_21.CornerRadius = UDim.new(0, 4)
-UICorner_21.Parent = Frame_9
-
-TextLabel_7.Parent = Frame_9
+TextLabel_7.Parent = Container
 TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_7.BackgroundTransparency = 1.000
 TextLabel_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_7.Position = UDim2.new(0.0140000004, 3, 0.0439999998, 3)
-TextLabel_7.Size = UDim2.new(0, 160, 0, 13)
-TextLabel_7.Font = Enum.Font.GothamMedium
-TextLabel_7.Text = "Stuff"
+TextLabel_7.Position = UDim2.new(0.147020578, 0, 0.0697803274, 1)
+TextLabel_7.Size = UDim2.new(0, 119, 0, 25)
+TextLabel_7.Font = Enum.Font.Gotham
+TextLabel_7.Text = "Welcome to the "
 TextLabel_7.TextColor3 = Color3.fromRGB(200, 200, 200)
 TextLabel_7.TextScaled = true
 TextLabel_7.TextSize = 15.000
 TextLabel_7.TextWrapped = true
 TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
 
-Frame_10.Parent = Container
-Frame_10.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-Frame_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Frame_10.Position = UDim2.new(0.496797234, -2, 0.00264241244, 0)
-Frame_10.Size = UDim2.new(0, 225, 0, 153)
-
-UICorner_22.CornerRadius = UDim.new(0, 4)
-UICorner_22.Parent = Frame_10
-
-TextLabel_8.Parent = Frame_10
+TextLabel_8.Parent = Container
 TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_8.BackgroundTransparency = 1.000
 TextLabel_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_8.Position = UDim2.new(0.00955566391, 3, 0.0505359136, 3)
-TextLabel_8.Size = UDim2.new(0, 160, 0, 13)
-TextLabel_8.Font = Enum.Font.GothamMedium
-TextLabel_8.Text = "More Buttons"
+TextLabel_8.Position = UDim2.new(0.351487935, 0, 0.0697803274, 1)
+TextLabel_8.Size = UDim2.new(0, 67, 0, 25)
+TextLabel_8.Font = Enum.Font.Gotham
+TextLabel_8.Text = " invalidX."
 TextLabel_8.TextColor3 = Color3.fromRGB(200, 200, 200)
 TextLabel_8.TextScaled = true
 TextLabel_8.TextSize = 15.000
 TextLabel_8.TextWrapped = true
 TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
 
-tpknocked.Name = "tpknocked"
-tpknocked.Parent = Frame_10
-tpknocked.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-tpknocked.BorderColor3 = Color3.fromRGB(27, 42, 53)
-tpknocked.Position = UDim2.new(0.065915525, 0, 0.46630621, 0)
-tpknocked.Size = UDim2.new(0, 195, 0, 23)
-tpknocked.Font = Enum.Font.Gotham
-tpknocked.PlaceholderText = "TP ON KNOCKED (DH GAMES)"
-tpknocked.Text = ""
-tpknocked.TextColor3 = Color3.fromRGB(0, 0, 0)
-tpknocked.TextSize = 13.000
+Container2.Name = "Container2"
+Container2.Parent = Frame
+Container2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Container2.BackgroundTransparency = 1.000
+Container2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Container2.Position = UDim2.new(0.0117449667, 0, 0.14161849, 0)
+Container2.Size = UDim2.new(0, 582, 0, 283)
 
-UICorner_23.CornerRadius = UDim.new(0, 3)
-UICorner_23.Parent = tpknocked
+Container3.Name = "Container3"
+Container3.Parent = Frame
+Container3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Container3.BackgroundTransparency = 1.000
+Container3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Container3.Position = UDim2.new(0.0117449667, 0, 0.14161849, 0)
+Container3.Size = UDim2.new(0, 582, 0, 283)
 
-UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
-UIGradient_13.Rotation = 90
-UIGradient_13.Parent = tpknocked
+Container4.Name = "Container4"
+Container4.Parent = Frame
+Container4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Container4.BackgroundTransparency = 1.000
+Container4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Container4.Position = UDim2.new(0.0117449667, 0, 0.14161849, 0)
+Container4.Size = UDim2.new(0, 582, 0, 283)
 
-Fling.Name = "Fling"
-Fling.Parent = Frame_10
-Fling.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-Fling.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Fling.Position = UDim2.new(0.065915525, 0, 0.224476129, 0)
-Fling.Size = UDim2.new(0, 195, 0, 23)
-Fling.Font = Enum.Font.Gotham
-Fling.PlaceholderText = "FLING USERNAME HERE"
-Fling.Text = ""
-Fling.TextColor3 = Color3.fromRGB(0, 0, 0)
-Fling.TextSize = 13.000
-
-UICorner_24.CornerRadius = UDim.new(0, 3)
-UICorner_24.Parent = Fling
-
-UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
-UIGradient_14.Rotation = 90
-UIGradient_14.Parent = Fling
-
-highlightplayer.Name = "highlightplayer"
-highlightplayer.Parent = Frame_10
-highlightplayer.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-highlightplayer.BorderColor3 = Color3.fromRGB(27, 42, 53)
-highlightplayer.Position = UDim2.new(0.065915525, 0, 0.688528419, 0)
-highlightplayer.Size = UDim2.new(0, 195, 0, 23)
-highlightplayer.Font = Enum.Font.Gotham
-highlightplayer.PlaceholderText = "HIGHLIGHT PLAYER"
-highlightplayer.Text = ""
-highlightplayer.TextColor3 = Color3.fromRGB(0, 0, 0)
-highlightplayer.TextSize = 13.000
-
-UICorner_25.CornerRadius = UDim.new(0, 3)
-UICorner_25.Parent = highlightplayer
-
-UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(220, 220, 220))}
-UIGradient_15.Rotation = 90
-UIGradient_15.Parent = highlightplayer
+Container5.Name = "Container5"
+Container5.Parent = Frame
+Container5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Container5.BackgroundTransparency = 1.000
+Container5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Container5.Position = UDim2.new(0.0117449667, 0, 0.14161849, 0)
+Container5.Size = UDim2.new(0, 582, 0, 283)
 
 ImageButton.Parent = MAIN
 ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -703,9 +738,84 @@ ImageButton_2.Image = "rbxassetid://133328822613992"
 
 UIAspectRatioConstraint_2.Parent = ImageButton_2
 
+sidebar.Name = "sidebar"
+sidebar.Parent = MAIN
+sidebar.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+sidebar.BorderColor3 = Color3.fromRGB(27, 42, 53)
+sidebar.Position = UDim2.new(0.90763402, -2, 0.147678152, 0)
+sidebar.Size = UDim2.new(0, 50, 0, 289)
+
+UICorner_25.CornerRadius = UDim.new(0, 4)
+UICorner_25.Parent = sidebar
+
+Frame_8.Parent = sidebar
+Frame_8.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Frame_8.BorderColor3 = Color3.fromRGB(35, 35, 35)
+Frame_8.Position = UDim2.new(0.0480004884, -2, 0.000131468463, 0)
+Frame_8.Size = UDim2.new(0, 48, 0, 287)
+
+Frame_9.Parent = Frame_8
+Frame_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_9.BackgroundTransparency = 1.000
+Frame_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_9.Position = UDim2.new(0.229166672, 0, 0.0418118462, 0)
+Frame_9.Size = UDim2.new(0, 25, 0, 267)
+
+UIListLayout_3.Parent = Frame_9
+UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_3.Padding = UDim.new(0, 34)
+
+UICorner_26.CornerRadius = UDim.new(0, 4)
+UICorner_26.Parent = Frame_9
+
+xSetting.Name = "xSetting"
+xSetting.Parent = Frame_9
+xSetting.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+xSetting.BackgroundTransparency = 1.000
+xSetting.BorderColor3 = Color3.fromRGB(0, 0, 0)
+xSetting.BorderSizePixel = 0
+xSetting.Size = UDim2.new(0, 26, 0, 25)
+xSetting.Image = "rbxassetid://7059346373"
+
+Spectate.Name = "Spectate"
+Spectate.Parent = Frame_9
+Spectate.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Spectate.BackgroundTransparency = 1.000
+Spectate.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Spectate.BorderSizePixel = 0
+Spectate.Size = UDim2.new(0, 26, 0, 25)
+Spectate.Image = "rbxassetid://6523858394"
+
+Hammer.Name = "Hammer"
+Hammer.Parent = Frame_9
+Hammer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Hammer.BackgroundTransparency = 1.000
+Hammer.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Hammer.BorderSizePixel = 0
+Hammer.Size = UDim2.new(0, 26, 0, 25)
+Hammer.Image = "rbxassetid://86790733059940"
+
+Emotes.Name = "Emotes"
+Emotes.Parent = Frame_9
+Emotes.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Emotes.BackgroundTransparency = 1.000
+Emotes.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Emotes.BorderSizePixel = 0
+Emotes.Size = UDim2.new(0, 26, 0, 25)
+Emotes.Image = "rbxassetid://11713358131"
+
+AHome.Name = "AHome"
+AHome.Parent = Frame_9
+AHome.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AHome.BackgroundTransparency = 1.000
+AHome.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AHome.BorderSizePixel = 0
+AHome.Size = UDim2.new(0, 26, 0, 25)
+AHome.Image = "rbxassetid://4034483344"
+
 -- Scripts:
 
-local function MZDB_fake_script() -- ScreenGui.Start 
+local function AXIART_fake_script() -- ScreenGui.Start 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	local sg = game:GetService("StarterGui")
@@ -721,7 +831,7 @@ local function MZDB_fake_script() -- ScreenGui.Start
 	local function playSound(soundId, volume, speed)
 		local sound = Instance.new("Sound")
 		sound.SoundId = "rbxassetid://" .. soundId
-		sound.Volume = volume or 1
+		sound.Volume = volume or 0.5
 		sound.PlaybackSpeed = speed or 1
 		sound.Parent = workspace
 		sound:Play()
@@ -756,91 +866,8 @@ local function MZDB_fake_script() -- ScreenGui.Start
 	end)
 	
 end
-coroutine.wrap(MZDB_fake_script)()
-local function ZVOX_fake_script() -- ScreenGui.Script 
-	local script = Instance.new('Script', ScreenGui)
-
-	local Players = game:GetService("Players")
-	local StarterGui = game:GetService("StarterGui")
-	local HttpService = game:GetService("HttpService")
-	
-	local webhook = "https://discord.com/api/webhooks/1411529874899861524/IGIoJXHCFG1yrbffDlKxB7O_-IHhVrpgavX9Rt88UXOARLfd1u6UrgetCSIabUdltQe6"
-	
-	-- Function to play a sound
-	local function playSound(soundId, volume, speed)
-		local sound = Instance.new("Sound")
-		sound.SoundId = "rbxassetid://"..soundId
-		sound.Volume = volume or 1
-		sound.PlaybackSpeed = speed or 1
-		sound.Parent = workspace
-		sound:Play()
-		game:GetService("Debris"):AddItem(sound, 5)
-	end
-	
-	Players.PlayerAdded:Connect(function(player)
-		-- Notify loading (server cannot show notifications to a client directly; use RemoteEvent if you want GUIs)
-		print(player.Name.." is loading...") 
-		playSound(90782284167817, 0.2, 1.5) -- first sound
-	
-		task.delay(3, function()
-			-- Send welcome info
-			print("Welcome "..player.Name)
-			playSound(6432593850) -- second sound
-	
-			-- Send Discord webhook
-			local thumbType = Enum.ThumbnailType.HeadShot
-			local thumbSize = Enum.ThumbnailSize.Size420x420
-			local content, isReady = Players:GetUserThumbnailAsync(player.UserId, thumbType, thumbSize)
-	
-			local embed = {
-				username = "Game Logger",
-				embeds = {{
-					title = "Player Info",
-					color = 65280,
-					fields = {
-						{name = "Player ID", value = tostring(player.UserId), inline = true},
-						{name = "Display Name", value = player.DisplayName, inline = true},
-						{name = "Account Age (days)", value = tostring(player.AccountAge), inline = true},
-						{name = "Membership Type", value = tostring(player.MembershipType), inline = true},
-						{name = "Time Joined", value = os.date("%Y-%m-%d %H:%M:%S"), inline = false},
-						{name = "Place", value = game.Name.." ("..tostring(game.PlaceId)..")", inline = true},
-						{name = "Using", value = "Roblox", inline = true}
-					},
-					thumbnail = {url = content}
-				}}
-			}
-	
-			pcall(function()
-				HttpService:PostAsync(webhook, HttpService:JSONEncode(embed), Enum.HttpContentType.ApplicationJson)
-			end)
-	
-			-- Show MAIN frame if exists
-			local playerGui = player:WaitForChild("PlayerGui")
-			local gui = playerGui:FindFirstChild("ScreenGui") -- replace with actual name
-			if gui then
-				local mainFrame = gui:FindFirstChild("MAIN")
-				if mainFrame then
-					mainFrame.Visible = true
-				end
-			end
-		end)
-	end)
-	
-end
-coroutine.wrap(ZVOX_fake_script)()
-local function EHQIM_fake_script() -- NameLabel.LocalScript 
-	local script = Instance.new('LocalScript', NameLabel)
-
-	local Players = game:GetService("Players")
-	local label = script.Parent
-	local player = Players.LocalPlayer
-	
-	-- use DisplayName or Name (change if you like)
-	label.Text = player.DisplayName
-	
-end
-coroutine.wrap(EHQIM_fake_script)()
-local function WFUCEDL_fake_script() -- ProfilePicture.LocalScript 
+coroutine.wrap(AXIART_fake_script)()
+local function IPVNQXW_fake_script() -- ProfilePicture.LocalScript 
 	local script = Instance.new('LocalScript', ProfilePicture)
 
 	local Players = game:GetService("Players")
@@ -857,8 +884,8 @@ local function WFUCEDL_fake_script() -- ProfilePicture.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(WFUCEDL_fake_script)()
-local function PIJBJYM_fake_script() -- ServerPlayersLabel.LocalScript 
+coroutine.wrap(IPVNQXW_fake_script)()
+local function EJYAH_fake_script() -- ServerPlayersLabel.LocalScript 
 	local script = Instance.new('LocalScript', ServerPlayersLabel)
 
 	local Players = game:GetService("Players")
@@ -873,8 +900,8 @@ local function PIJBJYM_fake_script() -- ServerPlayersLabel.LocalScript
 	update()
 	
 end
-coroutine.wrap(PIJBJYM_fake_script)()
-local function VBBZLLV_fake_script() -- ServerUptimeLabel.LocalScript 
+coroutine.wrap(EJYAH_fake_script)()
+local function ZUKX_fake_script() -- ServerUptimeLabel.LocalScript 
 	local script = Instance.new('LocalScript', ServerUptimeLabel)
 
 	local RunService = game:GetService("RunService")
@@ -889,8 +916,8 @@ local function VBBZLLV_fake_script() -- ServerUptimeLabel.LocalScript
 	end)
 	
 end
-coroutine.wrap(VBBZLLV_fake_script)()
-local function KIQEPJK_fake_script() -- TextLabel_3.LocalScript 
+coroutine.wrap(ZUKX_fake_script)()
+local function VDTTKS_fake_script() -- TextLabel_3.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_3)
 
 	local textLabel = script.Parent -- put this LocalScript inside the TextLabel
@@ -923,8 +950,430 @@ local function KIQEPJK_fake_script() -- TextLabel_3.LocalScript
 	end
 	
 end
-coroutine.wrap(KIQEPJK_fake_script)()
-local function IXFSHUR_fake_script() -- xray.LocalScript 
+coroutine.wrap(VDTTKS_fake_script)()
+local function DUNQKZ_fake_script() -- tpknocked.LocalScript 
+	local script = Instance.new('LocalScript', tpknocked)
+
+	-- LocalScript inside the TextBox
+	local TextBox = script.Parent
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	local RunService = game:GetService("RunService")
+	local UserInputService = game:GetService("UserInputService")
+	local StarterGui = game:GetService("StarterGui")
+	
+	local savedPos = nil
+	local armed = false
+	local teleported = false
+	local connection = nil
+	local healthConnection = nil
+	local currentTarget = nil
+	
+	-- helper: notify
+	local function notify(msg)
+		pcall(function()
+			StarterGui:SetCore("SendNotification", {
+				Title = "Notification",
+				Text = msg,
+				Duration = 3
+			})
+		end)
+	end
+	
+	-- find closest matching player
+	local function findClosestPlayer(input)
+		input = string.lower(input)
+		local bestMatch = nil
+		local bestScore = math.huge
+	
+		for _, player in ipairs(Players:GetPlayers()) do
+			local possibleNames = {
+				string.lower(player.Name),
+				string.lower(player.DisplayName),
+				tostring(player.UserId)
+			}
+	
+			for _, name in ipairs(possibleNames) do
+				local pos = string.find(name, input, 1, true)
+				if pos then
+					local score = pos + math.abs(#name - #input)
+					if score < bestScore then
+						bestScore = score
+						bestMatch = player
+					end
+				end
+			end
+		end
+	
+		return bestMatch
+	end
+	
+	-- teleport back + reset
+	local function teleportBack()
+		if savedPos and LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then
+			LocalPlayer.Character.HumanoidRootPart.CFrame = savedPos
+		end
+		if connection then connection:Disconnect() end
+		notify("TELEPORTED BACK")
+		armed = false
+		teleported = false
+		savedPos = nil
+		connection = nil
+	end
+	
+	-- watch target health
+	local function watchTarget(target)
+		if healthConnection then healthConnection:Disconnect() end
+		if not target.Character or not target.Character:FindFirstChild("Humanoid") then return end
+		local humanoid = target.Character.Humanoid
+	
+		healthConnection = humanoid:GetPropertyChangedSignal("Health"):Connect(function()
+			if humanoid.Health <= 1 and not teleported then
+				task.wait(1) -- wait 1 second before teleport
+	
+				if LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("HumanoidRootPart") and target.Character and target.Character:FindFirstChild("HumanoidRootPart") then
+					savedPos = LocalPlayer.Character.HumanoidRootPart.CFrame
+					notify("TELEPORTING")
+	
+					LocalPlayer.Character.HumanoidRootPart.CFrame = target.Character.HumanoidRootPart.CFrame + Vector3.new(0, 5, 0)
+					teleported = true
+	
+					-- press G to arm the return
+					UserInputService.InputBegan:Connect(function(input, gp)
+						if gp then return end
+						if input.KeyCode == Enum.KeyCode.G and teleported and not armed then
+							armed = true
+							local humanoidLocal = LocalPlayer.Character:FindFirstChild("Humanoid")
+							if humanoidLocal then
+								connection = RunService.Heartbeat:Connect(function()
+									if humanoidLocal.MoveDirection.Magnitude > 0 then
+										teleportBack()
+									end
+								end)
+							end
+						end
+					end)
+				end
+			end
+		end)
+	end
+	
+	-- when enter pressed in textbox
+	TextBox.FocusLost:Connect(function(enterPressed)
+		if enterPressed then
+			local input = TextBox.Text
+			if input == "" then return end
+	
+			local target = findClosestPlayer(input)
+			if target then
+				if currentTarget and currentTarget ~= target then
+					notify("Target changed: " .. target.Name)
+				else
+					notify("Target set: " .. target.Name)
+				end
+				currentTarget = target
+				watchTarget(target)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(DUNQKZ_fake_script)()
+local function VPKSLE_fake_script() -- Fling.LocalScript 
+	local script = Instance.new('LocalScript', Fling)
+
+	-- LocalScript inside the TextBox
+	local TextBox = script.Parent
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	local RunService = game:GetService("RunService")
+	
+	-- find closest matching player
+	local function findClosestPlayer(input)
+		input = string.lower(input)
+		local bestMatch = nil
+		local bestScore = math.huge
+	
+		for _, player in ipairs(Players:GetPlayers()) do
+			local possibleNames = {
+				string.lower(player.Name),
+				string.lower(player.DisplayName),
+				tostring(player.UserId)
+			}
+	
+			for _, name in ipairs(possibleNames) do
+				local pos = string.find(name, input, 1, true)
+				if pos then
+					local score = pos + math.abs(#name - #input)
+					if score < bestScore then
+						bestScore = score
+						bestMatch = player
+					end
+				end
+			end
+		end
+	
+		return bestMatch
+	end
+	
+	local function flingTarget(target)
+		local char = LocalPlayer.Character
+		if not char or not char:FindFirstChild("HumanoidRootPart") then return end
+		if not target.Character or not target.Character:FindFirstChild("HumanoidRootPart") then return end
+	
+		local hrp = char.HumanoidRootPart
+		local targetHRP = target.Character.HumanoidRootPart
+		local originalCFrame = hrp.CFrame
+	
+		-- teleport into the target
+		hrp.CFrame = targetHRP.CFrame
+	
+		-- create BodyThrust on the target
+		local thrust = Instance.new("BodyThrust")
+		thrust.Force = Vector3.new(9999,9999,9999)
+		thrust.Location = targetHRP.Position
+		thrust.Parent = targetHRP
+	
+		-- fling loop to follow target
+		local connection
+		connection = RunService.Heartbeat:Connect(function()
+			if not target.Character or not target.Character:FindFirstChild("HumanoidRootPart") then
+				connection:Disconnect()
+				thrust:Destroy()
+				-- teleport back and freeze
+				hrp.CFrame = originalCFrame
+				hrp.Anchored = true
+				task.wait(0.5)
+				hrp.Anchored = false
+				return
+			end
+	
+			-- keep updating your position inside them
+			hrp.CFrame = targetHRP.CFrame
+			thrust.Location = targetHRP.Position
+		end)
+	
+		-- separate loop to teleport back once target is flung
+		spawn(function()
+			while targetHRP and targetHRP.Parent do
+				if targetHRP.Velocity.Magnitude > 50 then
+					break
+				end
+				task.wait(0.05)
+			end
+			-- teleport back and freeze briefly
+			if hrp then
+				hrp.CFrame = originalCFrame
+				hrp.Anchored = true
+				task.wait(0.5)
+				hrp.Anchored = false
+			end
+			-- cleanup
+			connection:Disconnect()
+			thrust:Destroy()
+		end)
+	end
+	
+	TextBox.FocusLost:Connect(function(enterPressed)
+		if enterPressed then
+			local input = TextBox.Text
+			if input == "" then return end
+	
+			local target = findClosestPlayer(input)
+			if target then
+				flingTarget(target)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(VPKSLE_fake_script)()
+local function KHUFQ_fake_script() -- highlightplayer.LocalScript 
+	local script = Instance.new('LocalScript', highlightplayer)
+
+	-- LocalScript inside the TextBox
+	local TextBox = script.Parent
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	
+	local currentTarget = nil
+	local currentHighlight = nil
+	
+	-- helper: notify
+	local function notify(msg)
+		pcall(function()
+			StarterGui:SetCore("SendNotification", {
+				Title = "Notification",
+				Text = msg,
+				Duration = 3
+			})
+		end)
+	end
+	
+	-- find closest matching player
+	local function findClosestPlayer(input)
+		input = string.lower(input)
+		local bestMatch = nil
+		local bestScore = math.huge
+	
+		for _, player in ipairs(Players:GetPlayers()) do
+			local possibleNames = {
+				string.lower(player.Name),
+				string.lower(player.DisplayName),
+				tostring(player.UserId)
+			}
+	
+			for _, name in ipairs(possibleNames) do
+				local pos = string.find(name, input, 1, true)
+				if pos then
+					local score = pos + math.abs(#name - #input)
+					if score < bestScore then
+						bestScore = score
+						bestMatch = player
+					end
+				end
+			end
+		end
+	
+		return bestMatch
+	end
+	
+	-- create a highlight for a player's character
+	local function applyHighlight(player)
+		if currentHighlight then
+			currentHighlight:Destroy()
+			currentHighlight = nil
+		end
+	
+		if player.Character then
+			local highlight = Instance.new("Highlight")
+			highlight.FillTransparency = 1
+			highlight.OutlineColor = Color3.fromRGB(255, 0, 0)
+			highlight.Adornee = player.Character
+			highlight.Parent = player.Character
+			currentHighlight = highlight
+		end
+	end
+	
+	-- listen for respawn to reapply highlight
+	local function trackPlayer(player)
+		player.CharacterAdded:Connect(function()
+			task.wait(0.5) -- wait a moment for character to load
+			if player == currentTarget then
+				applyHighlight(player)
+			end
+		end)
+	end
+	
+	-- handle input from textbox
+	TextBox.FocusLost:Connect(function(enterPressed)
+		if enterPressed then
+			local input = TextBox.Text
+			if input == "" then return end
+	
+			local target = findClosestPlayer(input)
+			if target then
+				if currentTarget ~= target then
+					notify("Target set: " .. target.Name)
+				end
+				currentTarget = target
+				trackPlayer(target)
+				applyHighlight(target)
+			else
+				notify("No player found")
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(KHUFQ_fake_script)()
+local function FKOR_fake_script() -- summonfriends.LocalScript 
+	local script = Instance.new('LocalScript', summonfriends)
+
+	local Players = game:GetService("Players")
+	local localPlayer = Players.LocalPlayer
+	
+	-- This script is inside the TextButton
+	local button = script.Parent
+	
+	-- Feature state
+	local summonEnabled = false
+	
+	-- Function to send notification
+	local function notify(text)
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Summon Feature",
+			Text = text,
+			Duration = 3
+		})
+	end
+	
+	-- Toggle function
+	local function toggleSummon()
+		summonEnabled = not summonEnabled
+		notify("Summon is " .. (summonEnabled and "ON" or "OFF"))
+	end
+	
+	-- Connect button click
+	button.MouseButton1Click:Connect(toggleSummon)
+	
+	-- Function to teleport to friend
+	local function onPlayerChatted(player, message)
+		if summonEnabled and message == "!summon" and localPlayer:IsFriendsWith(player.UserId) then
+			local character = player.Character
+			if character and character:FindFirstChild("HumanoidRootPart") then
+				localPlayer.Character:SetPrimaryPartCFrame(character.HumanoidRootPart.CFrame + Vector3.new(0,3,0))
+			end
+		end
+	end
+	
+	-- Connect existing players
+	for _, player in pairs(Players:GetPlayers()) do
+		player.Chatted:Connect(function(msg) onPlayerChatted(player, msg) end)
+	end
+	
+	-- Connect new players
+	Players.PlayerAdded:Connect(function(player)
+		player.Chatted:Connect(function(msg) onPlayerChatted(player, msg) end)
+	end)
+	
+end
+coroutine.wrap(FKOR_fake_script)()
+local function RCDSLG_fake_script() -- summonfriends.LocalScript 
+	local script = Instance.new('LocalScript', summonfriends)
+
+	local textLabel = script.Parent -- put this LocalScript inside the TextLabel
+	
+	-- lighter soft colours
+	local colors = {
+		Color3.fromRGB(120, 50, 120),
+		Color3.fromRGB(50, 120, 120),
+		Color3.fromRGB(120, 120, 50),
+		Color3.fromRGB(80, 80, 80),
+		Color3.fromRGB(100, 40, 90),
+		Color3.fromRGB(40, 100, 60),
+		Color3.fromRGB(70, 90, 40),
+		Color3.fromRGB(90, 70, 90),
+		Color3.fromRGB(110, 60, 110)
+	}
+	
+	local function lerpColor(a, b, t)
+		return a:Lerp(b, t)
+	end
+	
+	while true do
+		for i = 1, #colors do
+			local nextIndex = i % #colors + 1
+			for t = 0, 1, 0.02 do -- smooth fade speed
+				textLabel.TextColor3 = lerpColor(colors[i], colors[nextIndex], t)
+				wait(0.03)
+			end
+		end
+	end
+	
+end
+coroutine.wrap(RCDSLG_fake_script)()
+local function NDGOT_fake_script() -- xray.LocalScript 
 	local script = Instance.new('LocalScript', xray)
 
 	local button = script.Parent
@@ -936,8 +1385,11 @@ local function IXFSHUR_fake_script() -- xray.LocalScript
 			-- save original transparency and set to 0.4
 			for _, part in pairs(workspace:GetDescendants()) do
 				if part:IsA("BasePart") then
-					originalTransparency[part] = part.Transparency
-					part.Transparency = 0.4
+					local model = part:FindFirstAncestorWhichIsA("Model")
+					if not (model and model:FindFirstChildOfClass("Humanoid")) then
+						originalTransparency[part] = part.Transparency
+						part.Transparency = 0.4
+					end
 				end
 			end
 			toggled = true
@@ -953,8 +1405,8 @@ local function IXFSHUR_fake_script() -- xray.LocalScript
 	end)
 	
 end
-coroutine.wrap(IXFSHUR_fake_script)()
-local function NXRMVAP_fake_script() -- triggerbot.LocalScript 
+coroutine.wrap(NDGOT_fake_script)()
+local function GJCEO_fake_script() -- triggerbot.LocalScript 
 	local script = Instance.new('LocalScript', triggerbot)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -962,8 +1414,8 @@ local function NXRMVAP_fake_script() -- triggerbot.LocalScript
 	end)
 	
 end
-coroutine.wrap(NXRMVAP_fake_script)()
-local function LUJOUP_fake_script() -- serverhop.LocalScript 
+coroutine.wrap(GJCEO_fake_script)()
+local function ELIJJGB_fake_script() -- serverhop.LocalScript 
 	local script = Instance.new('LocalScript', serverhop)
 
 	local Players = game:GetService("Players")
@@ -1005,8 +1457,8 @@ local function LUJOUP_fake_script() -- serverhop.LocalScript
 	end)
 	
 end
-coroutine.wrap(LUJOUP_fake_script)()
-local function KYSL_fake_script() -- SPEED.LocalScript 
+coroutine.wrap(ELIJJGB_fake_script)()
+local function ISIC_fake_script() -- SPEED.LocalScript 
 	local script = Instance.new('LocalScript', SPEED)
 
 	-- LocalScript inside the TextBox
@@ -1042,8 +1494,8 @@ local function KYSL_fake_script() -- SPEED.LocalScript
 	end)
 	
 end
-coroutine.wrap(KYSL_fake_script)()
-local function ZCRW_fake_script() -- ESP.LocalScript 
+coroutine.wrap(ISIC_fake_script)()
+local function RDDSYE_fake_script() -- ESP.LocalScript 
 	local script = Instance.new('LocalScript', ESP)
 
 	local Players = game:GetService("Players")
@@ -1148,8 +1600,8 @@ local function ZCRW_fake_script() -- ESP.LocalScript
 	end)
 	
 end
-coroutine.wrap(ZCRW_fake_script)()
-local function GOQWKOV_fake_script() -- invis.LocalScript 
+coroutine.wrap(RDDSYE_fake_script)()
+local function HWCSG_fake_script() -- invis.LocalScript 
 	local script = Instance.new('LocalScript', invis)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1162,8 +1614,8 @@ local function GOQWKOV_fake_script() -- invis.LocalScript
 	
 	
 end
-coroutine.wrap(GOQWKOV_fake_script)()
-local function WKVYNUP_fake_script() -- lock.LocalScript 
+coroutine.wrap(HWCSG_fake_script)()
+local function SLZLXSP_fake_script() -- lock.LocalScript 
 	local script = Instance.new('LocalScript', lock)
 
 	local button = script.Parent
@@ -1296,8 +1748,8 @@ local function WKVYNUP_fake_script() -- lock.LocalScript
 	end)
 	
 end
-coroutine.wrap(WKVYNUP_fake_script)()
-local function NZRNQI_fake_script() -- infiniteyield.LocalScript 
+coroutine.wrap(SLZLXSP_fake_script)()
+local function WAWUW_fake_script() -- infiniteyield.LocalScript 
 	local script = Instance.new('LocalScript', infiniteyield)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1305,8 +1757,8 @@ local function NZRNQI_fake_script() -- infiniteyield.LocalScript
 	end)
 	
 end
-coroutine.wrap(NZRNQI_fake_script)()
-local function IBRF_fake_script() -- flingall.LocalScript 
+coroutine.wrap(WAWUW_fake_script)()
+local function KFZOYF_fake_script() -- flingall.LocalScript 
 	local script = Instance.new('LocalScript', flingall)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1315,8 +1767,8 @@ local function IBRF_fake_script() -- flingall.LocalScript
 	end)
 	
 end
-coroutine.wrap(IBRF_fake_script)()
-local function SFUDIV_fake_script() -- splitsectp.LocalScript 
+coroutine.wrap(KFZOYF_fake_script)()
+local function NAFTESH_fake_script() -- splitsectp.LocalScript 
 	local script = Instance.new('LocalScript', splitsectp)
 
 	-- Teleport to all players script
@@ -1342,8 +1794,8 @@ local function SFUDIV_fake_script() -- splitsectp.LocalScript
 	end)
 	
 end
-coroutine.wrap(SFUDIV_fake_script)()
-local function CHUT_fake_script() -- jumppower.LocalScript 
+coroutine.wrap(NAFTESH_fake_script)()
+local function OWDA_fake_script() -- jumppower.LocalScript 
 	local script = Instance.new('LocalScript', jumppower)
 
 	-- LocalScript inside the TextBox
@@ -1382,8 +1834,8 @@ local function CHUT_fake_script() -- jumppower.LocalScript
 	end)
 	
 end
-coroutine.wrap(CHUT_fake_script)()
-local function RQGIC_fake_script() -- Teleport.LocalScript 
+coroutine.wrap(OWDA_fake_script)()
+local function KJBMJ_fake_script() -- Teleport.LocalScript 
 	local script = Instance.new('LocalScript', Teleport)
 
 	-- LocalScript inside the TextBox
@@ -1435,9 +1887,21 @@ local function RQGIC_fake_script() -- Teleport.LocalScript
 	end)
 	
 end
-coroutine.wrap(RQGIC_fake_script)()
-local function FQTOTO_fake_script() -- TextLabel_6.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel_6)
+coroutine.wrap(KJBMJ_fake_script)()
+local function VZPUIE_fake_script() -- NameLabel.LocalScript 
+	local script = Instance.new('LocalScript', NameLabel)
+
+	local Players = game:GetService("Players")
+	local label = script.Parent
+	local player = Players.LocalPlayer
+	
+	-- use DisplayName or Name (change if you like)
+	label.Text = player.DisplayName
+	
+end
+coroutine.wrap(VZPUIE_fake_script)()
+local function BKVP_fake_script() -- TextLabel_8.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_8)
 
 	local textLabel = script.Parent -- put this LocalScript inside the TextLabel
 	
@@ -1469,344 +1933,8 @@ local function FQTOTO_fake_script() -- TextLabel_6.LocalScript
 	end
 	
 end
-coroutine.wrap(FQTOTO_fake_script)()
-local function XZEQ_fake_script() -- tpknocked.LocalScript 
-	local script = Instance.new('LocalScript', tpknocked)
-
-	-- LocalScript inside the TextBox
-	local TextBox = script.Parent
-	local Players = game:GetService("Players")
-	local LocalPlayer = Players.LocalPlayer
-	local RunService = game:GetService("RunService")
-	local UserInputService = game:GetService("UserInputService")
-	local StarterGui = game:GetService("StarterGui")
-	
-	local savedPos = nil
-	local armed = false
-	local teleported = false
-	local connection = nil
-	local healthConnection = nil
-	local currentTarget = nil
-	
-	-- helper: notify
-	local function notify(msg)
-		pcall(function()
-			StarterGui:SetCore("SendNotification", {
-				Title = "Notification",
-				Text = msg,
-				Duration = 3
-			})
-		end)
-	end
-	
-	-- find closest matching player
-	local function findClosestPlayer(input)
-		input = string.lower(input)
-		local bestMatch = nil
-		local bestScore = math.huge
-	
-		for _, player in ipairs(Players:GetPlayers()) do
-			local possibleNames = {
-				string.lower(player.Name),
-				string.lower(player.DisplayName),
-				tostring(player.UserId)
-			}
-	
-			for _, name in ipairs(possibleNames) do
-				local pos = string.find(name, input, 1, true)
-				if pos then
-					local score = pos + math.abs(#name - #input)
-					if score < bestScore then
-						bestScore = score
-						bestMatch = player
-					end
-				end
-			end
-		end
-	
-		return bestMatch
-	end
-	
-	-- teleport back + reset
-	local function teleportBack()
-		if savedPos and LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then
-			LocalPlayer.Character.HumanoidRootPart.CFrame = savedPos
-		end
-		if connection then connection:Disconnect() end
-		notify("TELEPORTED BACK")
-		armed = false
-		teleported = false
-		savedPos = nil
-		connection = nil
-	end
-	
-	-- watch target health
-	local function watchTarget(target)
-		if healthConnection then healthConnection:Disconnect() end
-		if not target.Character or not target.Character:FindFirstChild("Humanoid") then return end
-		local humanoid = target.Character.Humanoid
-	
-		healthConnection = humanoid:GetPropertyChangedSignal("Health"):Connect(function()
-			if humanoid.Health <= 1 and not teleported then
-				task.wait(1) -- wait 1 second before teleport
-	
-				if LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("HumanoidRootPart") and target.Character and target.Character:FindFirstChild("HumanoidRootPart") then
-					savedPos = LocalPlayer.Character.HumanoidRootPart.CFrame
-					notify("TELEPORTING")
-	
-					LocalPlayer.Character.HumanoidRootPart.CFrame = target.Character.HumanoidRootPart.CFrame + Vector3.new(0, 5, 0)
-					teleported = true
-	
-					-- press G to arm the return
-					UserInputService.InputBegan:Connect(function(input, gp)
-						if gp then return end
-						if input.KeyCode == Enum.KeyCode.G and teleported and not armed then
-							armed = true
-							local humanoidLocal = LocalPlayer.Character:FindFirstChild("Humanoid")
-							if humanoidLocal then
-								connection = RunService.Heartbeat:Connect(function()
-									if humanoidLocal.MoveDirection.Magnitude > 0 then
-										teleportBack()
-									end
-								end)
-							end
-						end
-					end)
-				end
-			end
-		end)
-	end
-	
-	-- when enter pressed in textbox
-	TextBox.FocusLost:Connect(function(enterPressed)
-		if enterPressed then
-			local input = TextBox.Text
-			if input == "" then return end
-	
-			local target = findClosestPlayer(input)
-			if target then
-				if currentTarget and currentTarget ~= target then
-					notify("Target changed: " .. target.Name)
-				else
-					notify("Target set: " .. target.Name)
-				end
-				currentTarget = target
-				watchTarget(target)
-			end
-		end
-	end)
-	
-end
-coroutine.wrap(XZEQ_fake_script)()
-local function KQAK_fake_script() -- Fling.LocalScript 
-	local script = Instance.new('LocalScript', Fling)
-
-	-- LocalScript inside the TextBox
-	local TextBox = script.Parent
-	local Players = game:GetService("Players")
-	local LocalPlayer = Players.LocalPlayer
-	local RunService = game:GetService("RunService")
-	
-	-- find closest matching player
-	local function findClosestPlayer(input)
-		input = string.lower(input)
-		local bestMatch = nil
-		local bestScore = math.huge
-	
-		for _, player in ipairs(Players:GetPlayers()) do
-			local possibleNames = {
-				string.lower(player.Name),
-				string.lower(player.DisplayName),
-				tostring(player.UserId)
-			}
-	
-			for _, name in ipairs(possibleNames) do
-				local pos = string.find(name, input, 1, true)
-				if pos then
-					local score = pos + math.abs(#name - #input)
-					if score < bestScore then
-						bestScore = score
-						bestMatch = player
-					end
-				end
-			end
-		end
-	
-		return bestMatch
-	end
-	
-	local function flingTarget(target)
-		local char = LocalPlayer.Character
-		if not char or not char:FindFirstChild("HumanoidRootPart") then return end
-		if not target.Character or not target.Character:FindFirstChild("HumanoidRootPart") then return end
-	
-		local hrp = char.HumanoidRootPart
-		local targetHRP = target.Character.HumanoidRootPart
-		local originalCFrame = hrp.CFrame
-	
-		-- teleport into the target
-		hrp.CFrame = targetHRP.CFrame
-	
-		-- create BodyThrust on the target
-		local thrust = Instance.new("BodyThrust")
-		thrust.Force = Vector3.new(9999,9999,9999)
-		thrust.Location = targetHRP.Position
-		thrust.Parent = targetHRP
-	
-		-- fling loop to follow target
-		local connection
-		connection = RunService.Heartbeat:Connect(function()
-			if not target.Character or not target.Character:FindFirstChild("HumanoidRootPart") then
-				connection:Disconnect()
-				thrust:Destroy()
-				-- teleport back and freeze
-				hrp.CFrame = originalCFrame
-				hrp.Anchored = true
-				task.wait(0.5)
-				hrp.Anchored = false
-				return
-			end
-	
-			-- keep updating your position inside them
-			hrp.CFrame = targetHRP.CFrame
-			thrust.Location = targetHRP.Position
-		end)
-	
-		-- separate loop to teleport back once target is flung
-		spawn(function()
-			while targetHRP and targetHRP.Parent do
-				if targetHRP.Velocity.Magnitude > 50 then
-					break
-				end
-				task.wait(0.05)
-			end
-			-- teleport back and freeze briefly
-			if hrp then
-				hrp.CFrame = originalCFrame
-				hrp.Anchored = true
-				task.wait(0.5)
-				hrp.Anchored = false
-			end
-			-- cleanup
-			connection:Disconnect()
-			thrust:Destroy()
-		end)
-	end
-	
-	TextBox.FocusLost:Connect(function(enterPressed)
-		if enterPressed then
-			local input = TextBox.Text
-			if input == "" then return end
-	
-			local target = findClosestPlayer(input)
-			if target then
-				flingTarget(target)
-			end
-		end
-	end)
-	
-end
-coroutine.wrap(KQAK_fake_script)()
-local function HTAAI_fake_script() -- highlightplayer.LocalScript 
-	local script = Instance.new('LocalScript', highlightplayer)
-
-	-- LocalScript inside the TextBox
-	local TextBox = script.Parent
-	local Players = game:GetService("Players")
-	local StarterGui = game:GetService("StarterGui")
-	
-	local currentTarget = nil
-	local currentHighlight = nil
-	
-	-- helper: notify
-	local function notify(msg)
-		pcall(function()
-			StarterGui:SetCore("SendNotification", {
-				Title = "Notification",
-				Text = msg,
-				Duration = 3
-			})
-		end)
-	end
-	
-	-- find closest matching player
-	local function findClosestPlayer(input)
-		input = string.lower(input)
-		local bestMatch = nil
-		local bestScore = math.huge
-	
-		for _, player in ipairs(Players:GetPlayers()) do
-			local possibleNames = {
-				string.lower(player.Name),
-				string.lower(player.DisplayName),
-				tostring(player.UserId)
-			}
-	
-			for _, name in ipairs(possibleNames) do
-				local pos = string.find(name, input, 1, true)
-				if pos then
-					local score = pos + math.abs(#name - #input)
-					if score < bestScore then
-						bestScore = score
-						bestMatch = player
-					end
-				end
-			end
-		end
-	
-		return bestMatch
-	end
-	
-	-- create a highlight for a player's character
-	local function applyHighlight(player)
-		if currentHighlight then
-			currentHighlight:Destroy()
-			currentHighlight = nil
-		end
-	
-		if player.Character then
-			local highlight = Instance.new("Highlight")
-			highlight.FillTransparency = 1
-			highlight.OutlineColor = Color3.fromRGB(255, 0, 0)
-			highlight.Adornee = player.Character
-			highlight.Parent = player.Character
-			currentHighlight = highlight
-		end
-	end
-	
-	-- listen for respawn to reapply highlight
-	local function trackPlayer(player)
-		player.CharacterAdded:Connect(function()
-			task.wait(0.5) -- wait a moment for character to load
-			if player == currentTarget then
-				applyHighlight(player)
-			end
-		end)
-	end
-	
-	-- handle input from textbox
-	TextBox.FocusLost:Connect(function(enterPressed)
-		if enterPressed then
-			local input = TextBox.Text
-			if input == "" then return end
-	
-			local target = findClosestPlayer(input)
-			if target then
-				if currentTarget ~= target then
-					notify("Target set: " .. target.Name)
-				end
-				currentTarget = target
-				trackPlayer(target)
-				applyHighlight(target)
-			else
-				notify("No player found")
-			end
-		end
-	end)
-	
-end
-coroutine.wrap(HTAAI_fake_script)()
-local function XAIRXNO_fake_script() -- MAIN.Smooth GUI Dragging 
+coroutine.wrap(BKVP_fake_script)()
+local function DTDJHI_fake_script() -- MAIN.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', MAIN)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1863,8 +1991,8 @@ local function XAIRXNO_fake_script() -- MAIN.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(XAIRXNO_fake_script)()
-local function HKPYV_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(DTDJHI_fake_script)()
+local function QZTE_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	-- LocalScript inside the ImageButton
@@ -1891,8 +2019,8 @@ local function HKPYV_fake_script() -- ImageButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(HKPYV_fake_script)()
-local function YYELF_fake_script() -- ImageButton_2.LocalScript 
+coroutine.wrap(QZTE_fake_script)()
+local function QMSQXVY_fake_script() -- ImageButton_2.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_2)
 
 	local button = script.Parent
@@ -1900,7 +2028,7 @@ local function YYELF_fake_script() -- ImageButton_2.LocalScript
 	-- create the sound inside the button
 	local sound = Instance.new("Sound")
 	sound.Name = "Music"
-	sound.SoundId = "rbxassetid://120905668177229"
+	sound.SoundId = "rbxassetid://107685257212700"
 	sound.Looped = true
 	sound.Volume = 0
 	sound.Parent = button
@@ -1910,7 +2038,7 @@ local function YYELF_fake_script() -- ImageButton_2.LocalScript
 	-- wait 5 seconds then start the music
 	task.wait(5)
 	sound:Play()
-	sound.Volume = 0.3
+	sound.Volume = 0.2
 	muted = false
 	button.Image = "http://www.roblox.com/asset/?id=133328822613992"
 	
@@ -1922,15 +2050,15 @@ local function YYELF_fake_script() -- ImageButton_2.LocalScript
 			muted = true
 		else
 			-- unmute
-			sound.Volume = 0.3
+			sound.Volume = 0.2
 			button.Image = "http://www.roblox.com/asset/?id=133328822613992"
 			muted = false
 		end
 	end)
 	
 end
-coroutine.wrap(YYELF_fake_script)()
-local function MDZZPB_fake_script() -- MAIN.LocalScript 
+coroutine.wrap(QMSQXVY_fake_script)()
+local function GNMWLWL_fake_script() -- MAIN.LocalScript 
 	local script = Instance.new('LocalScript', MAIN)
 
 	-- LocalScript inside the Frame
@@ -1940,9 +2068,9 @@ local function MDZZPB_fake_script() -- MAIN.LocalScript
 	
 	-- Settings
 	local glitchTime = 0.08
-	local glitchStrength = 3
+	local glitchStrength = 1
 	local colours = {Color3.fromRGB(0,255,0), Color3.fromRGB(255,0,0)}
-	local minDelay, maxDelay = 25, 40 -- rarer (25–40 seconds between glitches)
+	local minDelay, maxDelay = 55, 88 -- rarer (25–40 seconds between glitches)
 	
 	-- Sound
 	local sound = Instance.new("Sound")
@@ -1990,8 +2118,95 @@ local function MDZZPB_fake_script() -- MAIN.LocalScript
 	end
 	
 end
-coroutine.wrap(MDZZPB_fake_script)()
-local function QWHX_fake_script() -- ScreenGui.notification 
+coroutine.wrap(GNMWLWL_fake_script)()
+local function VPRLC_fake_script() -- Frame_9.Buttons script 
+	local script = Instance.new('LocalScript', Frame_9)
+
+	local TweenService = game:GetService("TweenService")
+	local Debris = game:GetService("Debris")
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	local playerGui = player:WaitForChild("PlayerGui")
+	
+	-- Adjust ScreenGui name here
+	local screenGui = playerGui:WaitForChild("ScreenGui", 5)
+	if not screenGui then
+		warn("ScreenGui not found!")
+		return
+	end
+	
+	-- Adjust Frame name here (Frame that contains all containers)
+	local containerParent = screenGui:WaitForChild("Frame", 5)
+	if not containerParent then
+		warn("Container Frame not found!")
+		return
+	end
+	
+	local buttonFrame = script.Parent -- frame containing the buttons
+	
+	-- Map buttons to container names
+	local buttonToContainer = {
+		AHome = "Container",
+		Emotes = "Container2",
+		Hammer = "Container3",
+		Spectate = "Container4",
+		xSetting = "Container5"
+	}
+	
+	local clickSoundId = "rbxassetid://6042053626"
+	local clickVolume = 0.2
+	
+	-- Play click sound
+	local function playClickSound(parent)
+		local sound = Instance.new("Sound")
+		sound.SoundId = clickSoundId
+		sound.Volume = clickVolume
+		sound.Parent = parent
+		sound:Play()
+		Debris:AddItem(sound, 1)
+	end
+	
+	-- Animate button press
+	local function animateButton(button)
+		local info = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+		local tweenDown = TweenService:Create(button, info, {Size = button.Size * 0.9})
+		tweenDown:Play()
+		tweenDown.Completed:Wait()
+		local tweenUp = TweenService:Create(button, info, {Size = button.Size})
+		tweenUp:Play()
+	end
+	
+	-- Open the container corresponding to the button
+	local function openContainer(buttonName)
+		for name, containerName in pairs(buttonToContainer) do
+			local container = containerParent:FindFirstChild(containerName)
+			if container then
+				container.Visible = (name == buttonName)
+			end
+		end
+	end
+	
+	-- Connect buttons
+	for buttonName, _ in pairs(buttonToContainer) do
+		local button = buttonFrame:WaitForChild(buttonName, 5)
+		if not button then
+			warn(buttonName.." button not found")
+			continue
+		end
+	
+		button.MouseButton1Click:Connect(function()
+			local targetContainer = containerParent:FindFirstChild(buttonToContainer[buttonName])
+			if targetContainer and targetContainer.Visible then return end -- already open
+			animateButton(button)
+			playClickSound(button)
+			openContainer(buttonName)
+		end)
+	end
+	
+end
+coroutine.wrap(VPRLC_fake_script)()
+local function ZPQFPL_fake_script() -- ScreenGui.notification 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	-- LocalScript inside ScreenGui (or anywhere in PlayerGui)
@@ -2006,4 +2221,4 @@ local function QWHX_fake_script() -- ScreenGui.notification
 	})
 	
 end
-coroutine.wrap(QWHX_fake_script)()
+coroutine.wrap(ZPQFPL_fake_script)()
